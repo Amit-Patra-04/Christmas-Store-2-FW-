@@ -176,3 +176,14 @@ body.dark-theme {
   margin-bottom: var(--mb-2-5);
   text-align: center;
 }
+
+/*=============== HEADER ===============*/
+.header {
+  width: 100%;
+  background-color: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  transition: .4s; /*For animation dark mode*/
+}
