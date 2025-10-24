@@ -471,3 +471,12 @@ body.dark-theme {
 .new__card:hover .new__img {
   transform: translateY(-.5rem);
 }
+
+/*Class Swiper*/
+.swiper-pagination-bullet {
+  background-color: var(--text-color);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
